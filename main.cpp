@@ -1,4 +1,5 @@
 #include<iostream>
+#include<ctime>
 #include"sum.h"
 
 using namespace std;
