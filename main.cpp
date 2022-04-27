@@ -2,6 +2,7 @@
 #include<ctime>
 #include"dif.h"
 #include"sum.h"
+#include"prod.h"
 
 using namespace std;
 
@@ -14,6 +15,8 @@ int main()
 	int res = Sum(a,b);
 	cout<<"Res = "<<res<<endl;
 	res = Dif(a,b);
+	cout<<"Res = "<<res<<endl;
+	res = Prod(a,b);
 	cout<<"Res = "<<res<<endl;
 
 }
