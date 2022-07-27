@@ -3,6 +3,7 @@
 #include"dif.h"
 #include"sum.h"
 #include"prod.h"
+#include"quot.h"
 
 using namespace std;
 
@@ -17,6 +18,8 @@ int main()
 	res = Dif(a,b);
 	cout<<"Res = "<<res<<endl;
 	res = Prod(a,b);
+	cout<<"Res = "<<res<<endl;
+	res = Quot(a,b);
 	cout<<"Res = "<<res<<endl;
 
 }
